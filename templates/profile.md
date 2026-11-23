@@ -4,10 +4,15 @@ Keep this file private. Every score, CV, letter and message is built from it, so
 honest and specific it is, the better they get. Update it whenever you remember something
 true that isn't here.
 
+**Don't put these here:** ID, passport or national insurance / social security numbers,
+bank details, passwords, date of birth, home address (a town or city is enough), photos,
+health information, current salary, or private details about other people. None of them
+are needed to score roles or write applications.
+
 ## About me
 
 - Name:
-- Country and nearest city:
+- Country and nearest town or city:
 - Spelling and date format: (for example British English, DD/MM/YYYY)
 - Portfolio, GitHub or LinkedIn:
 - Current or most recent title:

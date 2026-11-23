@@ -35,7 +35,7 @@ Read the `job-search-core` skill first.
 | route | Cold / Contact first / Referral / Recruiter |
 | cv_version | which base or tailored CV was sent |
 | date_applied | YYYY-MM-DD |
-| contact | name and role of anyone contacted |
+| contact | name and role only (no personal phone numbers or private details) |
 | next_action | one concrete step |
 | next_action_date | YYYY-MM-DD |
 | listing_url, apply_url | |
@@ -52,6 +52,10 @@ Read the `job-search-core` skill first.
 - When a status changes, update `next_action` in the same edit.
 - When a result arrives, also add a row to `outcomes.md`.
 - In a spreadsheet, never overwrite formula cells. Read the header row first.
+- Only write to the tracker the user named. If you can't reach it, say so; don't create a
+  copy somewhere else.
+- When a role is closed, it's fine to keep the row for the user's records. If they ask to
+  remove someone's details (for example a contact), delete them.
 
 ## What's due today
 

@@ -48,6 +48,17 @@ Tailoring changes **emphasis and wording**, never facts.
    route rather than trying to get past a screener.
 4. Re-score the screener part on the tailored text and report old and new scores.
 
+## Personal details on the CV
+
+Name, town or city, email, phone and a portfolio or profile link are enough. Leave out date
+of birth, age, photo, marital status, nationality, full home address and ID numbers unless
+the user chooses to include one because it's expected in their country. Don't add them
+without asking.
+
+If the user is worried about age bias, it's honest and common to show only the last 15 or
+so years in detail, summarise earlier roles in a line, and leave out graduation years.
+Never change dates or facts.
+
 ## Screener-friendly layout
 
 The template is built for this already. Keep it that way:

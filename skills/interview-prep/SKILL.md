@@ -19,6 +19,10 @@ For each story, ask the user for the facts, then write it as:
   including one thing they chose not to do and why.
 - **Result:** what changed, with a number if there is one.
 - **What I learned / would do differently:** one line. Interviewers listen for this.
+
+Describe other people by role ("a developer on my team", "our head of product"), not by
+name, and leave out anything private about them. Keep employers' confidential details out:
+use rough numbers ("about 400 sites") if exact figures aren't public.
 - **Fits questions about:** for example leadership, conflict, failure, influence without
   authority, a technical decision, delivering under pressure, working with product or
   design, ambiguity.

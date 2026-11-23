@@ -10,7 +10,9 @@ Use the `job-search-core` skill.
    arrives.
 3. Copy `templates/profile.md` from this plugin to `job-search/profile.md`, fill in what the
    CV shows, and mark every skill as Strong, Limited or Gap from the evidence. Anything you
-   can't tell goes under Unknown.
+   can't tell goes under Unknown. Leave out the sensitive details listed in section 5 of
+   `job-search-core` (date of birth, full address, ID numbers, photo and so on), even if
+   the CV includes them, and tell the user what you left out and why.
 4. Ask the remaining questions in one short message: target titles, locations and work
    pattern, office-day and travel limits, pay target and floor, notice period, right to
    work, and what they want their next role to move them towards. Stop and wait.

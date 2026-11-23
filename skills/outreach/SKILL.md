@@ -39,6 +39,9 @@ Write each message so it can be read in 20 seconds on a phone.
 ## Rules
 
 - One message, one ask.
+- Only use contact details the person has made public for work (a LinkedIn profile, a work
+  email on the listing). Don't guess or look up personal email addresses or phone numbers.
+- Don't share the user's CV or personal details with anyone the user hasn't chosen.
 - Specific beats flattering: mention something real about their product, post or team.
 - Never pretend to know someone, never imply a referral that hasn't been given.
 - Don't attach the CV to a first message unless asked; a link to a portfolio or profile

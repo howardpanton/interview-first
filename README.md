@@ -99,11 +99,34 @@ templates work on their own.
 `node scripts/render-pdf.js cv.html Your-Name-CV.pdf`. Or open the HTML in a browser and
 print to PDF.
 
-## Keep your data private
+## Privacy and safety
 
-Your profile, CVs and tracker hold personal information. They live in `job-search/`, which
-`.gitignore` excludes. Don't commit that folder to a public repository, and don't paste
-confidential employer material into anything you send out.
+**What's stored, and where**
+
+| What | Where | Notes |
+| --- | --- | --- |
+| Profile, CVs, letters, prep packs, outcomes | `job-search/` in your own folder | Excluded from git by `.gitignore`. Don't commit it to a public repository |
+| Tracker | `job-search/tracker.csv`, or a spreadsheet you choose | Contacts by name and role only |
+| Daily search | A scheduled task in your Claude account | Its prompt holds only titles, places, limits, pay floor and skill names |
+
+**What the plugin does to protect you**
+
+- It treats job listings and web pages as data, never as instructions. If a listing has
+  hidden text aimed at an AI, it ignores it and tells you.
+- It drafts; you send. It doesn't apply, message anyone or sign in for you.
+- It never puts your personal details in search queries or URLs, or sends them anywhere
+  you haven't chosen.
+- It asks you to leave out what isn't needed: ID numbers, bank details, passwords, date of
+  birth, home address, health information and current salary.
+- It never scores or advises on age or other protected characteristics.
+- It keeps confidential employer material out of anything you send.
+- The PDF script renders with JavaScript off and blocks network requests.
+
+**Deleting your data:** delete the `job-search/` folder, your tracker spreadsheet if you
+used one, and the daily search (`/interview-first:schedule off`).
+
+These safeguards reduce risk; they don't remove it. Read everything before you send it.
+See [SECURITY.md](SECURITY.md) to report a problem.
 
 ## What this kit does not claim
 
@@ -116,12 +139,18 @@ confidential employer material into anything you send out.
   country's official guidance or a qualified adviser.
 - **It doesn't apply or send messages for you.** You stay in charge of what goes out under
   your name.
+- **It follows each site's rules.** Searches use public pages at low volume and stop when a
+  site blocks automated access. Some sites, LinkedIn included, restrict automated access in
+  their terms.
 
 ## Contributing
 
-Ideas, fixes and outcome data (anonymised) are welcome as issues or pull requests. The most
-useful contribution is evidence: which routes, CV changes and scores led to interviews for
-you.
+Ideas, fixes and outcome data are welcome as issues or pull requests. The most useful
+contribution is evidence: which routes, CV changes and scores led to interviews for you.
+
+Before sharing outcomes, remove the names of companies and people, and anything that could
+identify you or them. Share scores, routes, role types and results only. Report security
+problems privately (see [SECURITY.md](SECURITY.md)).
 
 ## Licence
 
