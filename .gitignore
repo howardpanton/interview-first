@@ -1,0 +1,5 @@
+# Your personal job-search files: never commit these
+job-search/
+*.pdf
+.DS_Store
+node_modules/

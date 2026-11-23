@@ -1,0 +1,12 @@
+{
+  "name": "interview-first",
+  "description": "Interview First, a Claude plugin by Howard Panton",
+  "owner": { "name": "Howard Panton" },
+  "plugins": [
+    {
+      "name": "interview-first",
+      "source": "./",
+      "description": "Score roles, tailor your CV and cover letter honestly, reach out to the right people, track applications and prepare for interviews."
+    }
+  ]
+}

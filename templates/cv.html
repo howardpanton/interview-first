@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Alex Morgan - CV</title>
+<!--
+  Screener-friendly CV template.
+  - One column, real text, standard headings. Don't move contact details into a header or footer.
+  - Replace the example content (a fictional person) with your own.
+  - Render to PDF: node scripts/render-pdf.js cv.html Alex-Morgan-CV.pdf
+-->
+<style>
+  @page { size: A4; margin: 16mm 17mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.42;
+    color: #1d1d1f;
+    margin: 0;
+  }
+  h1 { font-size: 21pt; margin: 0 0 2pt; letter-spacing: -0.2pt; }
+  .title { font-size: 11.5pt; font-weight: 600; color: #2f4f6f; margin: 0 0 4pt; }
+  .contact { font-size: 9.5pt; color: #444; margin: 0 0 12pt; }
+  .contact a { color: inherit; text-decoration: none; }
+  h2 {
+    font-size: 10.5pt; text-transform: uppercase; letter-spacing: 0.8pt;
+    color: #2f4f6f; border-bottom: 1px solid #c9d3dd;
+    padding-bottom: 2pt; margin: 14pt 0 6pt;
+  }
+  .summary { margin: 0 0 6pt; }
+  .role { margin: 0 0 9pt; break-inside: avoid-page; }
+  .role-head { display: flex; justify-content: space-between; gap: 12pt; }
+  .role-title { font-weight: 700; }
+  .dates { color: #555; white-space: nowrap; font-size: 9.5pt; }
+  .org { color: #444; font-style: italic; margin: 0 0 2pt; }
+  ul { margin: 2pt 0 0; padding-left: 13pt; }
+  li { margin: 0 0 2.5pt; }
+  .skills p { margin: 0 0 3pt; }
+  .skills strong { display: inline-block; min-width: 92pt; }
+  .nowrap { white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<h1>Alex Morgan</h1>
+<p class="title">Senior Software Engineer, Frontend</p>
+<p class="contact">
+  Manchester, UK &middot; alex.morgan@example.com &middot; 07700 900000 &middot;
+  <a href="https://example.com">example.com</a> &middot;
+  <a href="https://github.com/example">github.com/example</a>
+</p>
+
+<h2>Summary</h2>
+<p class="summary">
+  Frontend engineer with nine years building data-heavy web applications in TypeScript,
+  most recently leading the frontend of a logistics planning platform used by 400 depots.
+  I own features end to end with product and design, and look after the test suites and
+  release pipeline.
+</p>
+<p class="summary">
+  Since 2025 most of my delivery runs through AI coding agents, with tests and review
+  checks that sit outside the agent. Looking for a lead role where frontend quality and
+  AI-assisted delivery both matter.
+</p>
+
+<h2>Experience</h2>
+
+<div class="role">
+  <div class="role-head">
+    <span class="role-title">Senior Software Engineer, Frontend</span>
+    <span class="dates">Mar 2021 to present</span>
+  </div>
+  <p class="org">Example Logistics Ltd, Manchester (hybrid)</p>
+  <ul>
+    <li>Led the frontend of the route-planning platform, used daily by 400 depots; mentor two developers.</li>
+    <li>Moved the app from a single bundle to a monorepo of 12 feature libraries, cutting CI time from 24 to 9 minutes.</li>
+    <li>Built a shared component library used by three product teams, with Storybook docs and visual tests.</li>
+    <li>Introduced feature flags so new screens run beside old ones and switch per customer without a release.</li>
+    <li>Set up AI-assisted delivery: shared prompts and agent workflows from ticket to tested pull request, with a person reviewing every change.</li>
+  </ul>
+</div>
+
+<div class="role">
+  <div class="role-head">
+    <span class="role-title">Software Engineer</span>
+    <span class="dates">Jun 2017 to Feb 2021</span>
+  </div>
+  <p class="org">Example Health Tech, Leeds</p>
+  <ul>
+    <li>Built the clinician scheduling interface in Angular and TypeScript for 60 clinics.</li>
+    <li>Wrote the end-to-end test suite in Cypress; production bugs fell by about a third over a year.</li>
+    <li>Ran usability sessions with clinic staff and turned findings into a redesigned booking flow.</li>
+  </ul>
+</div>
+
+<h2>Skills</h2>
+<div class="skills">
+  <p><strong>Languages</strong> TypeScript, JavaScript, HTML, CSS, Sass</p>
+  <p><strong>Frameworks</strong> Angular, React (one production app), RxJS, Nx</p>
+  <p><strong>Testing</strong> Jest, Cypress, Playwright, Storybook</p>
+  <p><strong>Delivery</strong> GitHub Actions, Docker, AWS (S3, CloudFront), feature flags</p>
+  <p><strong>AI</strong> Claude Code, GitHub Copilot, agent workflows, prompt and context design</p>
+  <p><strong>Ways of working</strong> Agile, cross-functional teams, mentoring, user testing</p>
+</div>
+
+<h2>Education</h2>
+<p>BSc Computer Science, Example University, 2017</p>
+
+</body>
+</html>
