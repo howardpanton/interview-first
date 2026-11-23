@@ -64,8 +64,8 @@ helped more:
 - [Leaving well](guides/leaving-well.md): redundancy, notice and telling new employers.
 
 **Templates:** a [profile](templates/profile.md), a screener-friendly
-[CV](templates/cv.html) and [cover letter](templates/cover-letter.html), and a
-[tracker](templates/tracker.csv). See a [sample score](examples/sample-score.md).
+[CV](skills/cv-tailor/cv-template.md) and [cover letter](skills/cover-letter/cover-letter-template.md)
+(HTML inside each file), and a [tracker](templates/tracker.csv). See a [sample score](examples/sample-score.md).
 
 ## Install
 
@@ -97,8 +97,8 @@ in a connected spreadsheet (such as Google Sheets) works either way. Otherwise t
 the roles in its summary for you to add, without scores if the plugin isn't there.
 
 **Not using Claude Code?** The skills are plain Markdown. Open a skill's `SKILL.md`, paste
-it into a chat with your profile or CV, then ask for what you need. The guides and
-templates work on their own.
+it into a chat with your profile or CV, then ask for what you need. The guides work on
+their own, and you can copy the CV and cover-letter HTML out of their template files.
 
 **PDFs:** open the HTML CV or cover letter in your browser and choose **Print → Save as
 PDF**, with margins left at Default and headers and footers turned off. The templates set

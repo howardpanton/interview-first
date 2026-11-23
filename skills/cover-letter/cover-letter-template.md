@@ -1,3 +1,21 @@
+# Cover letter template
+
+A cover letter starts from the HTML below. Write it out as
+`job-search/applications/<company>/cover-letter.html`, replace the fictional example
+(Alex Morgan applying to Example Co) with the real letter, and keep these layout rules:
+
+- One page, A4, with the margins set in the `@page` rule. Body text 11pt.
+- Name and contact line at the top, in the body, not in a page header or footer.
+- No scripts, no external fonts or images, and no links to other files: the page must
+  look the same opened offline.
+- Plain English, the candidate's own spelling and date format, no em dashes.
+
+The user saves it as a PDF from their browser (see "Saving as PDF" in the
+`interview-first:cv-tailor` skill).
+
+## Template
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,3 +53,4 @@
 <p>Kind regards,<br><br>Alex Morgan</p>
 </body>
 </html>
+```

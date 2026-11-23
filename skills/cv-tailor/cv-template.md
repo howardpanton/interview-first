@@ -1,3 +1,22 @@
+# CV template
+
+Every CV starts from the HTML below. Write it out as `job-search/cv/master.html` (or
+`job-search/applications/<company>/cv.html` for a tailored copy), replace the fictional
+example (Alex Morgan) with the candidate's own details, and keep these layout rules:
+
+- One column, real text, standard headings: Summary, Experience, Skills, Education.
+- Contact details in the body, never in a page header or footer.
+- Job title, company and dates on their own line for each role.
+- A4 with the margins set in the `@page` rule. Body text 10.5pt; never below 10pt.
+- No scripts, no external fonts or images, and no links to other files: the page must
+  look the same opened offline.
+- Plain English, the candidate's own spelling and date format, no em dashes.
+
+The user saves it as a PDF from their browser (see "Saving as PDF" in the skill).
+
+## Template
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,3 +128,4 @@
 
 </body>
 </html>
+```

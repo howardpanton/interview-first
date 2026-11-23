@@ -1,6 +1,6 @@
 # Sample output: job-fit-score
 
-A worked example for a fictional candidate (Alex Morgan, from `templates/cv.html`) and a
+A worked example for a fictional candidate (Alex Morgan, from `skills/cv-tailor/cv-template.md`) and a
 fictional listing. It shows the format and how the two scores can disagree.
 
 ---

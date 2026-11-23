@@ -46,8 +46,9 @@ the second and third. This structure is built for them.
 ## Format
 
 - Draft it in the chat or a document first so the user can edit it.
-- If they want a PDF, fill in `${CLAUDE_PLUGIN_ROOT}/templates/cover-letter.html` and have
-  them save it from their browser, as in `interview-first:cv-tailor` ("Saving as PDF"). It
+- If they want a PDF, write it out from
+  `${CLAUDE_PLUGIN_ROOT}/skills/cover-letter/cover-letter-template.md` and have them save
+  it from their browser, as in `interview-first:cv-tailor` ("Saving as PDF"). It
   must fit on one page. File name: `Firstname-Lastname-Cover-Letter-Company.pdf`.
 - If the application form has a text box instead, give a plain-text version with no
   formatting, within the box's character limit if known.

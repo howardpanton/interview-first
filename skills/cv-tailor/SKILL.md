@@ -10,7 +10,7 @@ Load the `interview-first:job-search-core` skill and read the candidate profile 
 ## The model: one master, many tailored copies
 
 - **Master CV** (`job-search/cv/master.html`): everything true and worth saying, built from
-  `${CLAUDE_PLUGIN_ROOT}/templates/cv.html`. It can run long. It is the source, not the thing they send.
+  `${CLAUDE_PLUGIN_ROOT}/skills/cv-tailor/cv-template.md`. It can run long. It is the source, not the thing they send.
 - **Base versions** (optional, 2 or 3): one per lane they are targeting, for example
   "frontend lead", "engineering manager", "AI enablement". Each has its own title line and
   summary.
