@@ -1,6 +1,7 @@
 ---
 name: cover-letter
 description: Write a one-page cover letter for a specific role that follows the listing's own priorities, backs each claim with real evidence and names gaps honestly. Use when the user asks for a cover letter, a "why this role" answer, or a supporting statement for an application.
+argument-hint: "[company or listing URL]"
 ---
 
 # Cover letter

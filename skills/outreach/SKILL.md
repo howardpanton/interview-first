@@ -1,6 +1,7 @@
 ---
 name: outreach
 description: Draft short messages to hiring managers, recruiters, possible referrers, former colleagues and interviewers, plus follow-ups. Use when the user wants to contact someone about a role, ask for a referral, follow up on an application, reply to a recruiter or network during a job search.
+argument-hint: "[who and why, e.g. 'hiring manager at Acme for the Lead Engineer role']"
 ---
 
 # Outreach
@@ -38,6 +39,7 @@ Write each message so it can be read in 20 seconds on a phone.
 
 ## Rules
 
+- If it's unclear who the message is for or what the ask is, ask one question first.
 - One message, one ask.
 - Only use contact details the person has made public for work (a LinkedIn profile, a work
   email on the listing). Don't guess or look up personal email addresses or phone numbers.
