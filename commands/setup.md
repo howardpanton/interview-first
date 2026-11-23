@@ -17,4 +17,9 @@ Use the `job-search-core` skill.
 5. Write their answers in, copy `templates/tracker.csv` to `job-search/tracker.csv`, create
    an empty `job-search/outcomes.md`, and make sure `job-search/` is in `.gitignore` if the
    folder is a git repository.
-6. Suggest the first three steps from `guides/60-day-interview-plan.md`.
+6. Offer a daily job search in one short question: "Would you like me to search for new
+   roles every weekday morning and add the best to your tracker?" If they say yes, follow
+   the "Setting it up as a daily task" section of the `daily-job-search` skill. If they say
+   no, tell them they can run `/interview-first:search` any time or `/interview-first:schedule`
+   later.
+7. Suggest the first three steps from `guides/60-day-interview-plan.md`.

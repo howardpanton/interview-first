@@ -38,10 +38,36 @@ Keep it short, highest score first:
 
 ## Setting it up as a daily task
 
-If the user's Claude setup supports scheduled tasks, offer to create one. Write its prompt
-so it stands alone, because each run starts fresh. A template is in
-`examples/scheduled-search-prompt.md`. Suggest an early-morning time on weekdays, so the
-results are waiting when they start their day.
+Used by `/interview-first:setup` (final step) and `/interview-first:schedule`.
 
-If scheduling isn't available, tell them they can run `/interview-first:search` each
-morning instead.
+1. **Check for a scheduling tool.** Look for one in this session (a tool to create
+   scheduled or recurring tasks; search the available tools if they are loaded on demand).
+   If there is none, say so in one line, suggest running `/interview-first:search` each
+   morning, and stop.
+2. **Check for an existing one.** If the tool can list scheduled tasks, look for one named
+   "Interview First daily job search" and offer to change it instead of creating a second.
+3. **Ask two things in one message:** what time (suggest a weekday time before they start
+   their day, avoiding exactly on the hour), and where results should go if the tracker
+   can't be reached (see step 5).
+4. **Write the prompt from `examples/scheduled-search-prompt.md`,** filled in from
+   `job-search/profile.md`. Each run starts fresh with no memory of this conversation, so
+   put the essentials in the prompt itself: target titles, locations and work pattern,
+   office-day limit, pay target and floor, right to work, and the skills grouped as Strong,
+   Limited and Gap. Also give the path to the profile, so a run that can read files uses
+   the full version.
+5. **Check the tracker can be reached by a scheduled run.** Some scheduled runs happen in
+   the cloud, without access to files on the user's computer.
+   - A spreadsheet reached through a connected tool (such as Google Sheets) works anywhere.
+   - A local `job-search/tracker.csv` only works if the task runs on their computer. If you
+     can't be sure, have the prompt fall back to listing the roles in its summary, and
+     tell the user they can paste that summary into a chat and ask to add the roles.
+6. **Create the task** named "Interview First daily job search", on weekdays at the chosen
+   time, using their time zone.
+7. **Confirm in two or three lines:** the time and days, what it searches, where results go,
+   whether runs will need the user's approval for actions (if the tool reports it), and
+   that `/interview-first:schedule off` stops it.
+
+The scheduled prompt must say: don't apply to anything, don't contact anyone, and skip any
+site that blocks automated access.
+
+To turn it off, confirm with the user first, then disable or delete the task.

@@ -45,6 +45,7 @@ helped more:
 | `/interview-first:cover-letter [role]` | Write a cover letter |
 | `/interview-first:outreach [who and why]` | Draft a message |
 | `/interview-first:search` | Find and score new roles |
+| `/interview-first:schedule [on / change / off]` | Run the search every weekday morning |
 | `/interview-first:today` | What's due today |
 | `/interview-first:review` | Weekly numbers and one change to make |
 | `/interview-first:prep [company] [prep / mock / debrief]` | Interview preparation |
@@ -79,6 +80,15 @@ Then, in an empty folder for your job search:
 
 It asks for your CV and a few questions, then creates a private `job-search/` folder with
 your profile, tracker and outcomes log.
+
+At the end it offers a **daily job search**: each weekday morning it finds new roles, scores
+them and adds the best to your tracker, so the results are waiting when you start. You can
+set this up, change it or turn it off later with `/interview-first:schedule`.
+
+This needs a Claude setup that can run scheduled tasks. If yours can't, run
+`/interview-first:search` each morning instead. Some scheduled runs happen in the cloud and
+can't reach files on your computer; a tracker in a connected spreadsheet (such as Google
+Sheets) works either way. Otherwise the run lists the roles in its summary for you to add.
 
 **Not using Claude Code?** The skills are plain Markdown. Open a skill's `SKILL.md`, paste
 it into a chat with your profile or CV, then ask for what you need. The guides and
