@@ -1,5 +1,7 @@
 # Interview First
 
+![Interview First: land interviews, not just applications. A sample score for a Lead Frontend Engineer role shows a match of 74 and an AI screener score of 65, with the advice to message the hiring manager first.](images/banner.png)
+
 A Claude plugin for a job search that aims at **interviews**, not application counts.
 
 It scores each role two ways, tailors your CV and cover letter without overclaiming, drafts
