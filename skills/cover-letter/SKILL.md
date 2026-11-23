@@ -45,8 +45,8 @@ the second and third. This structure is built for them.
 ## Format
 
 - Draft it in the chat or a document first so the user can edit it.
-- If they want a PDF, use `templates/cover-letter.html` and
-  `scripts/render-pdf.js`, and check it fits on one page. File name:
+- If they want a PDF, use `${CLAUDE_PLUGIN_ROOT}/templates/cover-letter.html` and
+  `${CLAUDE_PLUGIN_ROOT}/scripts/render-pdf.js`, and check it fits on one page. File name:
   `Firstname-Lastname-Cover-Letter-Company.pdf`.
 - If the application form has a text box instead, give a plain-text version with no
   formatting, within the box's character limit if known.

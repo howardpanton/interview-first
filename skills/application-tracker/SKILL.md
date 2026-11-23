@@ -9,10 +9,10 @@ Read the `job-search-core` skill first.
 
 ## Where the tracker lives
 
-- **Default:** `job-search/tracker.csv`, copied from `templates/tracker.csv`. Opens in any
+- **Default:** `job-search/tracker.csv`, copied from `${CLAUDE_PLUGIN_ROOT}/templates/tracker.csv`. Opens in any
   spreadsheet app.
 - **Their own spreadsheet:** if the user prefers Google Sheets, Excel or similar and a
-  connected tool can edit it, use that. Import `templates/tracker.csv` as the first tab.
+  connected tool can edit it, use that. Import `${CLAUDE_PLUGIN_ROOT}/templates/tracker.csv` as the first tab.
   Note the link in `profile.md`.
 - Also keep `job-search/outcomes.md` (see `job-search-core`) for results with their scores.
 
@@ -77,6 +77,6 @@ Report these numbers for the week and the total so far:
 - First conversations (recruiter screens count), and later-stage interviews.
 - Rejections, and how many days each took.
 
-Then compare with the targets in `guides/60-day-interview-plan.md` and suggest **one**
+Then compare with the targets in `${CLAUDE_PLUGIN_ROOT}/guides/60-day-interview-plan.md` and suggest **one**
 change for next week, based on the evidence. For example: "All 9 applications this week
 were cold and none got a reply; try contact-first for every High role next week."

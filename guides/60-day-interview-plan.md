@@ -28,7 +28,7 @@ conversations, not submissions.
 
 | Activity | Target per week | Notes |
 | --- | --- | --- |
-| Applications | 5 to 8 | Match score 75 or more. More than 8 usually means less time for people |
+| Applications | 5 to 8 | Match score 65 or more, strongest first. More than 8 usually means less time for people |
 | Outreach messages | 20 to 25 | About 5 a weekday: tied to applications, former colleagues, target companies, follow-ups |
 | Conversations | 3 | Any real exchange: a recruiter call, a coffee, a call with someone in the team |
 | Public posts or comments | 2 posts or 15 comments | Optional, but it raises profile views from recruiters |
