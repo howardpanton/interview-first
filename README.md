@@ -81,7 +81,8 @@ Then, in an empty folder for your job search:
 ```
 
 It asks for your CV and a few questions, then creates a private `job-search/` folder with
-your profile, tracker and outcomes log.
+your profile, tracker and outcomes log. The first time, Claude asks for permission to read
+the plugin's own templates (profile, CV and tracker). Allow it so setup can copy them.
 
 At the end it offers a **daily job search**: each weekday morning it finds new roles, scores
 them and adds the best to your tracker, so the results are waiting when you start. You can

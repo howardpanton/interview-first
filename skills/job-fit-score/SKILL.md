@@ -5,7 +5,7 @@ description: Give two scores out of 100 for a job listing, a match score (how we
 
 # Job fit score
 
-Read the `job-search-core` skill and the candidate profile first.
+Load the `job-search-core` skill and read the candidate profile first.
 
 Always produce two separate scores and show both:
 
@@ -68,8 +68,9 @@ List it under "Check before applying" and give that item half marks.
 ### 2. Seniority fit: 20
 
 - 20: the role's level matches their current or target level and they can evidence it.
-- 15: one step down (fine if they want it; say so).
-- 10: one step up, with partial evidence (for example, acting in the role).
+- 15: one step down (fine if they want it; say so), or one step up where they already do
+  most of the job and can evidence it (say what's missing).
+- 10: one step up, with only partial evidence (for example, acting in the role for a while).
 - 5: clearly too junior or too senior.
 
 ### 3. Domain fit: 15
@@ -80,8 +81,9 @@ List it under "Check before applying" and give that item half marks.
 
 ### 4. Practical fit: 20
 
-- Location and work pattern (7): matches their preferences fully 7; workable but not
-  preferred 4; at or past their limit 0 to 2.
+- Location and work pattern (7): within their limits and their preferred pattern 7 (exactly
+  at a limit counts as within); within their limits but not their preferred pattern 4;
+  past a limit 0.
 - Pay (8): range overlaps their target 8; only their floor 5; below the floor 0; not
   stated 4 (flag it).
 - Contract type and eligibility (5): suits them 5; deduct for short fixed terms or unclear
@@ -107,11 +109,11 @@ Score the CV text only. Screeners mostly read the CV, not the cover letter.
 
 | Part | Points | How |
 | --- | --- | --- |
-| Must-have keyword coverage | 50 | For each must-have, does the CV contain the term or a close synonym a screener would match? Found / total x 50 |
+| Must-have keyword coverage | 50 | For each must-have, does the CV contain the term or a close synonym a keyword screener would match ("JS" for "JavaScript")? A looser match, such as "component library" for "design system", counts as missing. Found / total x 50 |
 | Core skill evidence | 20 | The role's single core skill (the thing the job is really about). Strong and prominent on the CV 20; present but thin 10; missing 0 |
-| Title match | 10 | A CV job title in the same family as the listing title 10; adjacent 5; different 0 |
+| Title match | 10 | A CV job title in the same family and at the same level as the listing title 10; same family at a different level (Senior vs Lead), or an adjacent family, 5; different 0 |
 | Nice-to-have coverage | 10 | Found / total x 10. None listed: 5 |
-| Knock-out questions | 10 | Things a form checks automatically: location, work rights, office days, years in a named domain, degree subject, clearance. None apply 10; one soft issue 5; a hard one 0 |
+| Knock-out questions | 10 | Things a form checks automatically: location, work rights, office days, years in a named domain, degree subject, clearance. Judge by how they'd truthfully answer the form, not by whether the CV mentions it. None apply 10; one soft issue 5; a hard one 0 |
 
 **Caps:** a hard knock-out caps the screener score at 40; a missing core skill caps it
 at 55.
@@ -184,3 +186,5 @@ Source: [listing link]
 - Don't lower the match score for a keyword they have but the CV omits: that belongs in
   the screener score. Don't raise the screener score for experience the CV doesn't state.
 - Always report both scores, even when one is capped, and never average them.
+- When a judgement falls between two bands, use the lower one and say why, so the same
+  listing and profile get the same score each time.

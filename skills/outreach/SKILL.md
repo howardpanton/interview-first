@@ -6,7 +6,7 @@ argument-hint: "[who and why, e.g. 'hiring manager at Acme for the Lead Engineer
 
 # Outreach
 
-Read the `job-search-core` skill and the candidate profile first.
+Load the `job-search-core` skill and read the candidate profile first.
 
 ## Why this matters
 

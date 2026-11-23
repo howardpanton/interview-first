@@ -6,7 +6,7 @@ argument-hint: "[company or listing URL]"
 
 # Cover letter
 
-Read the `job-search-core` skill and the candidate profile first. Have the listing and,
+Load the `job-search-core` skill and read the candidate profile first. Have the listing and,
 ideally, the `job-fit-score` result in hand.
 
 ## What makes a letter work

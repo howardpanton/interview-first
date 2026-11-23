@@ -5,7 +5,7 @@ description: Build a master CV and tailor it for a specific role, honestly, then
 
 # CV tailor
 
-Read the `job-search-core` skill and the candidate profile first.
+Load the `job-search-core` skill and read the candidate profile first.
 
 ## The model: one master, many tailored copies
 

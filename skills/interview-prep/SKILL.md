@@ -5,7 +5,7 @@ description: Build an interview prep pack for a specific role, keep a bank of th
 
 # Interview prep
 
-Read the `job-search-core` skill and the candidate profile first.
+Load the `job-search-core` skill and read the candidate profile first.
 
 ## 1. The story bank
 
