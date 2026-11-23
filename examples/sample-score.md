@@ -43,5 +43,7 @@ dense operator screens like theirs.
 | Knock-out questions | 10/10 | None apply |
 
 **Add to your CV for this role (true, currently missing):** "design system" (the component
-library is one), "stakeholders" (they present to operations leads). Screener after: about 75 (must-haves 45/50).
+library is one), "stakeholders" (they present to operations leads). "Accessibility" isn't
+in the profile yet, so ask before adding it. Screener after: about 75 (must-haves 45/50),
+or 80 if accessibility is confirmed.
 **Don't add (genuine gaps):** GraphQL.

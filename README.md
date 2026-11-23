@@ -86,18 +86,18 @@ them and adds the best to your tracker, so the results are waiting when you star
 set this up, change it or turn it off later with `/interview-first:schedule`.
 
 This needs a Claude setup that can run scheduled tasks. If yours can't, run
-`/interview-first:search` each morning instead. Some scheduled runs happen in the cloud and
-can't reach files on your computer; a tracker in a connected spreadsheet (such as Google
-Sheets) works either way. Otherwise the run lists the roles in its summary for you to add.
+`/interview-first:search` each morning instead. Some scheduled runs happen in the cloud:
+they can't reach files on your computer, and may not have this plugin installed. A tracker
+in a connected spreadsheet (such as Google Sheets) works either way. Otherwise the run lists
+the roles in its summary for you to add, without scores if the plugin isn't there.
 
 **Not using Claude Code?** The skills are plain Markdown. Open a skill's `SKILL.md`, paste
 it into a chat with your profile or CV, then ask for what you need. The guides and
 templates work on their own.
 
-**PDFs:** to render your CV and letters, install Playwright once
-(`npm i -D playwright && npx playwright install chromium`), then
-`node scripts/render-pdf.js cv.html Your-Name-CV.pdf`. Or open the HTML in a browser and
-print to PDF.
+**PDFs:** to render your CV and letters, install Playwright once in your job-search folder
+(`npm i -D playwright && npx playwright install chromium`). Claude then renders them with
+the plugin's `scripts/render-pdf.js`. Or open the HTML in a browser and print to PDF.
 
 ## Privacy and safety
 
@@ -120,7 +120,8 @@ print to PDF.
   birth, home address, health information and current salary.
 - It never scores or advises on age or other protected characteristics.
 - It keeps confidential employer material out of anything you send.
-- The PDF script renders with JavaScript off and blocks network requests.
+- The PDF script renders with JavaScript off, and blocks network requests and files
+  outside the HTML file's folder.
 
 **Deleting your data:** delete the `job-search/` folder, your tracker spreadsheet if you
 used one, and the daily search (`/interview-first:schedule off`).

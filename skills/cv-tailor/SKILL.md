@@ -10,7 +10,7 @@ Read the `job-search-core` skill and the candidate profile first.
 ## The model: one master, many tailored copies
 
 - **Master CV** (`job-search/cv/master.html`): everything true and worth saying, built from
-  `templates/cv.html`. It can run long. It is the source, not the thing they send.
+  `${CLAUDE_PLUGIN_ROOT}/templates/cv.html`. It can run long. It is the source, not the thing they send.
 - **Base versions** (optional, 2 or 3): one per lane they are targeting, for example
   "frontend lead", "engineering manager", "AI enablement". Each has its own title line and
   summary.
@@ -26,7 +26,7 @@ Tailoring changes **emphasis and wording**, never facts.
    saved, releases, money, speed).
 2. For each role write 3 to 6 bullets. Each bullet: what they did, how, and what changed
    because of it. Lead with the verb. One line where possible, two at most.
-3. Run the **"true but missing"** exercise in `guides/cv-gaps-exercise.md`. Most people
+3. Run the **"true but missing"** exercise in `${CLAUDE_PLUGIN_ROOT}/guides/cv-gaps-exercise.md`. Most people
    leave out a third of their best evidence because it felt ordinary at the time.
 4. Skills section: grouped rows (languages, frameworks, testing, tools, ways of working),
    only things they could discuss in an interview. Mark nothing they would have to bluff.
@@ -75,7 +75,7 @@ The template is built for this already. Keep it that way:
 If a shell is available:
 
 ```
-node scripts/render-pdf.js job-search/applications/<company>/cv.html \
+node "${CLAUDE_PLUGIN_ROOT}/scripts/render-pdf.js" job-search/applications/<company>/cv.html \
   job-search/applications/<company>/Firstname-Lastname-CV-Company.pdf
 ```
 

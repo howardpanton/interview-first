@@ -23,7 +23,7 @@ for it. Include the steps to reproduce it, and leave out any real person's data.
   passwords, date of birth, home address, health information or current salary, and never
   scores or advises on protected characteristics such as age.
 - **Safe PDF rendering.** `scripts/render-pdf.js` renders with JavaScript off and blocks
-  every request except local files.
+  every request except files in the HTML file's own folder.
 
 ## Limits
 

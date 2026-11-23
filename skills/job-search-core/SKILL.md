@@ -1,6 +1,6 @@
 ---
 name: job-search-core
-description: Shared rules, file layout and the candidate profile for the Interview First. Use whenever the user is job hunting and asks for help with a role, CV, cover letter, outreach, tracker or interview, and before using any other skill in this plugin.
+description: Shared rules, file layout and the candidate profile for the Interview First plugin. Use whenever the user is job hunting and asks for help with a role, CV, cover letter, outreach, tracker or interview, and before using any other skill in this plugin.
 ---
 
 # Job search core
@@ -26,7 +26,7 @@ Say so when the user is spending time low on this list while something higher is
 Everything is scored and written against the candidate profile, never against guesses.
 
 - If file tools are available, read `job-search/profile.md` first. If it does not exist,
-  offer to run `/interview-first:setup`, which copies `templates/profile.md` from this plugin
+  offer to run `/interview-first:setup`, which copies `${CLAUDE_PLUGIN_ROOT}/templates/profile.md` from this plugin
   and fills it in with the user.
 - If file tools are not available, ask the user to paste their profile or CV, and keep it
   for the session.
