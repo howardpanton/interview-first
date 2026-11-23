@@ -46,7 +46,8 @@ Tailoring changes **emphasis and wording**, never facts.
      (2 pages is normal for experienced people; 1 page early in a career).
 3. Never add a Gap. If the role's core skill is a gap, say so, and recommend a person-first
    route rather than trying to get past a screener.
-4. Re-score the screener part on the tailored text and report old and new scores.
+4. Re-score the screener part on the tailored text and report old and new scores. If the
+   role is in the tracker, update its `screener_score` to the new score.
 
 ## Personal details on the CV
 
