@@ -20,7 +20,8 @@ conversations, not submissions.
 - [ ] Do the "true but missing" exercise in `cv-gaps-exercise.md`.
 - [ ] Build your master CV, then 2 or 3 base versions, one per lane.
 - [ ] Update your LinkedIn or equivalent profile to match the lead version: headline,
-      about section, the same job titles and dates as your CV.
+      about section, the same job titles and dates as your CV
+      (`/interview-first:linkedin-review` checks it).
 - [ ] List 25 target companies you'd genuinely like to work for, and who you know at each.
 - [ ] Set up the tracker and, if you can, a daily search.
 

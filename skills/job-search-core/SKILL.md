@@ -127,6 +127,7 @@ job-search/
   outcomes.md             # every application with its scores, route and result
   applications/<company>/ # tailored CV, cover letter, notes for one role
   prep/<company>.md       # interview prep pack for one role
+  linkedin-review.md      # latest LinkedIn review, with headline and About drafts
 ```
 
 If the user keeps their tracker in a spreadsheet tool instead, ask for the link once and

@@ -35,6 +35,7 @@ helped more:
 | `cv-tailor` | A master CV and honest tailored versions, rendered to a screener-friendly PDF |
 | `cover-letter` | One page that follows the listing's priorities, backs each claim with evidence and names gaps |
 | `outreach` | Short messages to hiring managers, recruiters, referrers and contacts, plus follow-ups and thank-yous |
+| `linkedin-review` | Checks your LinkedIn profile (its "Save to PDF" export) against your CV: mismatches, whether recruiters would find you, overclaims and privacy, plus a new headline and About |
 | `application-tracker` | A tracker (CSV or your own spreadsheet), what's due today, and a weekly review |
 | `daily-job-search` | Finds new roles, scores them and adds the best to your tracker; can run on a schedule |
 | `interview-prep` | A story bank, a prep pack per role, mock interviews with feedback, and debriefs |
@@ -46,6 +47,7 @@ helped more:
 | `/interview-first:tailor [role]` | Tailor your CV for a role |
 | `/interview-first:cover-letter [role]` | Write a cover letter |
 | `/interview-first:outreach [who and why]` | Draft a message |
+| `/interview-first:linkedin-review [PDF]` | Review your LinkedIn profile |
 | `/interview-first:search` | Find and score new roles |
 | `/interview-first:schedule [on / change / off]` | Run the search every weekday morning |
 | `/interview-first:today` | What's due today |
