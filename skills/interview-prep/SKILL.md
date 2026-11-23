@@ -5,7 +5,7 @@ description: Build an interview prep pack for a specific role, keep a bank of th
 
 # Interview prep
 
-Load the `job-search-core` skill and read the candidate profile first.
+Load the `interview-first:job-search-core` skill and read the candidate profile first.
 
 ## 1. The story bank
 
@@ -89,5 +89,5 @@ learned about the role and team, any red flags, and the next step and date. Then
 
 - Update the tracker status and next action.
 - Add the questions to the prep file for next time.
-- Draft a short thank-you note with the `outreach` skill.
+- Draft a short thank-you note with the `interview-first:outreach` skill.
 - Add the result to `outcomes.md`.

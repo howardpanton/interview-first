@@ -5,7 +5,7 @@ argument-hint: "[on | change | off]"
 
 Request: **$ARGUMENTS**
 
-Use the `daily-job-search` skill's "Setting it up as a daily task" section.
+Use the `interview-first:daily-job-search` skill's "Setting it up as a daily task" section.
 
 - **on** (or nothing given): set up a daily search. If one already exists, show its time
   and what it searches, and ask whether to change it.
