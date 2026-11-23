@@ -20,8 +20,8 @@ Use the `job-search-core` skill.
    an empty `job-search/outcomes.md`, and make sure `job-search/` is in `.gitignore` if the
    folder is a git repository.
 6. Offer a daily job search in one short question: "Would you like me to search for new
-   roles every weekday morning and add the best to your tracker?" If they say yes, follow
-   the "Setting it up as a daily task" section of the `daily-job-search` skill. If they say
-   no, tell them they can run `/interview-first:search` any time or `/interview-first:schedule`
-   later.
-7. Suggest the first three steps from `${CLAUDE_PLUGIN_ROOT}/guides/60-day-interview-plan.md`.
+   roles every weekday morning and add the best to your tracker?" Ask nothing else in that
+   message, and stop and wait for the answer. If they say yes, follow the "Setting it up as
+   a daily task" section of the `daily-job-search` skill. If they say no, tell them they can
+   run `/interview-first:search` any time or `/interview-first:schedule` later.
+7. Only after that, suggest the first three steps from `${CLAUDE_PLUGIN_ROOT}/guides/60-day-interview-plan.md`.
