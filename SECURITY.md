@@ -22,11 +22,9 @@ for it. Include the steps to reproduce it, and leave out any real person's data.
 - **No sensitive data needed.** The plugin asks you not to store ID numbers, bank details,
   passwords, date of birth, home address, health information or current salary, and never
   scores or advises on protected characteristics such as age.
-- **Safe PDF rendering.** `scripts/render-pdf.js` renders with JavaScript off and blocks
-  every request except files in the HTML file's own folder.
 
 ## Limits
 
-These safeguards are instructions to an AI model plus one script. They reduce risk; they
+These safeguards are instructions to an AI model. They reduce risk; they
 don't remove it. Read what the plugin drafts before you send it, and check what a scheduled
 task will do before you turn it on.

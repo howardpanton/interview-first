@@ -1,5 +1,5 @@
 ---
-description: Tailor your CV for a role, honestly, and render it to PDF
+description: Tailor your CV for a role, honestly, ready to save as a PDF
 argument-hint: "[company or listing URL]"
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: cv-tailor
-description: Build a master CV and tailor it for a specific role, honestly, then render it to PDF. Use when the user asks to write, improve, review or tailor their CV or resume, or to make a version for a particular job.
+description: Build a master CV and tailor it for a specific role, honestly, ready to save as a PDF. Use when the user asks to write, improve, review or tailor their CV or resume, or to make a version for a particular job.
 ---
 
 # CV tailor
@@ -71,20 +71,14 @@ The template is built for this already. Keep it that way:
   contact details.
 - File name: `Firstname-Lastname-CV-Company.pdf`.
 
-## Rendering to PDF
+## Saving as PDF
 
-If a shell is available:
+Tell the user to open the HTML in a browser and choose **Print → Save as PDF**, with
+margins left at Default (the template sets its own) and headers and footers turned off.
 
-```
-node "${CLAUDE_PLUGIN_ROOT}/scripts/render-pdf.js" job-search/applications/<company>/cv.html \
-  job-search/applications/<company>/Firstname-Lastname-CV-Company.pdf
-```
-
-Then check the page count, and look at the pages if you can view images. Fix overflows by
-cutting words, not by shrinking the type below 10pt or squeezing margins.
-
-If no shell is available, tell the user to open the HTML in a browser and use Print, Save
-as PDF, with margins set to "None" (the template sets its own).
+Then check the page count. If they save the PDF in the application folder, read it and
+look at the pages. Fix overflows by cutting words, not by shrinking the type below 10pt or
+squeezing margins.
 
 ## After the draft
 

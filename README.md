@@ -32,7 +32,7 @@ helped more:
 | --- | --- |
 | `job-search-core` | Your profile, the honesty rules and the file layout every other skill uses |
 | `job-fit-score` | Two scores out of 100: your **match** to the role, and how an AI **screener** would rank your CV, with what to fix |
-| `cv-tailor` | A master CV and honest tailored versions, rendered to a screener-friendly PDF |
+| `cv-tailor` | A master CV and honest tailored versions, ready to save as a screener-friendly PDF |
 | `cover-letter` | One page that follows the listing's priorities, backs each claim with evidence and names gaps |
 | `outreach` | Short messages to hiring managers, recruiters, referrers and contacts, plus follow-ups and thank-yous |
 | `linkedin-review` | Checks your LinkedIn profile (its "Save to PDF" export) against your CV: mismatches, whether recruiters would find you, overclaims and privacy, plus a new headline and About |
@@ -100,9 +100,9 @@ the roles in its summary for you to add, without scores if the plugin isn't ther
 it into a chat with your profile or CV, then ask for what you need. The guides and
 templates work on their own.
 
-**PDFs:** to render your CV and letters, install Playwright once in your job-search folder
-(`npm i -D playwright && npx playwright install chromium`). Claude then renders them with
-the plugin's `scripts/render-pdf.js`. Or open the HTML in a browser and print to PDF.
+**PDFs:** open the HTML CV or cover letter in your browser and choose **Print → Save as
+PDF**, with margins left at Default and headers and footers turned off. The templates set
+their own page size and margins.
 
 ## Privacy and safety
 
@@ -125,8 +125,6 @@ the plugin's `scripts/render-pdf.js`. Or open the HTML in a browser and print to
   birth, home address, health information and current salary.
 - It never scores or advises on age or other protected characteristics.
 - It keeps confidential employer material out of anything you send.
-- The PDF script renders with JavaScript off, and blocks network requests and files
-  outside the HTML file's folder.
 
 **Deleting your data:** delete the `job-search/` folder, your tracker spreadsheet if you
 used one, and the daily search (`/interview-first:schedule off`).

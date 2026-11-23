@@ -1,6 +1,6 @@
 {
   "name": "interview-first",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "An AI-assisted job search that aims at interviews, not application counts. Scores each role two ways (your fit and an AI screener's view of your CV), tailors your CV and cover letter without overclaiming, drafts outreach, tracks applications and prepares you for interviews.",
   "author": { "name": "Howard Panton" },
   "homepage": "https://github.com/howardpanton/interview-first",
