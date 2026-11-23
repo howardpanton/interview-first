@@ -11,7 +11,7 @@ Suggested schedule: weekdays, early morning.
 
 ---
 
-Run my daily job search using the Interview First plugin's `daily-job-search` skill. If
+Run my daily job search using the Interview First plugin's `interview-first:daily-job-search` skill. If
 the plugin's skills aren't available in this run, say so at the top of the summary and
 list the new roles you find with their links, without scores. Don't make up a scoring
 method.
@@ -23,7 +23,7 @@ target titles [..]; locations [..]; work pattern and office-day limit [..]; pay 
 My tracker is [job-search/tracker.csv / the Google Sheet at LINK, tab NAME].
 
 Search for roles posted in the last [2] days for these titles: [titles], in [locations or
-"remote, UK"]. Score each new role with `job-fit-score`. Skip roles already in the
+"remote, UK"]. Score each new role with `interview-first:job-fit-score`. Skip roles already in the
 tracker. Add at most 8 roles with a match score of 65 or more (50 or more if fewer than
 3 qualify),
 with status "To review" and both scores in the notes.

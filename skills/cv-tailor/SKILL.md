@@ -5,7 +5,7 @@ description: Build a master CV and tailor it for a specific role, honestly, then
 
 # CV tailor
 
-Load the `job-search-core` skill and read the candidate profile first.
+Load the `interview-first:job-search-core` skill and read the candidate profile first.
 
 ## The model: one master, many tailored copies
 
@@ -33,7 +33,7 @@ Tailoring changes **emphasis and wording**, never facts.
 
 ## Tailoring for a role
 
-1. Score the role first with `job-fit-score` if that hasn't been done. Use the screener
+1. Score the role first with `interview-first:job-fit-score` if that hasn't been done. Use the screener
    breakdown as the to-do list.
 2. Change, in this order:
    - **Title line and summary:** rewrite for this role in 3 short paragraphs at most.

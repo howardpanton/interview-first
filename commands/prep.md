@@ -5,4 +5,4 @@ argument-hint: "[company] [prep | mock | debrief]"
 
 Request: **$ARGUMENTS**
 
-Use the `interview-prep` skill. Default to a prep pack unless "mock" or "debrief" is given.
+Use the `interview-first:interview-prep` skill. Default to a prep pack unless "mock" or "debrief" is given.

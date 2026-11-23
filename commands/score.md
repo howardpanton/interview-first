@@ -5,5 +5,5 @@ argument-hint: "[listing URL or pasted text]"
 
 Listing: **$ARGUMENTS**
 
-Use the `job-fit-score` skill and follow it exactly. If no listing was given, ask for one
+Use the `interview-first:job-fit-score` skill and follow it exactly. If no listing was given, ask for one
 and stop.

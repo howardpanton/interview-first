@@ -5,7 +5,7 @@ description: Keep a job-search tracker of roles, applications, contacts, next ac
 
 # Application tracker
 
-Load the `job-search-core` skill first.
+Load the `interview-first:job-search-core` skill first.
 
 ## Where the tracker lives
 
@@ -14,7 +14,7 @@ Load the `job-search-core` skill first.
 - **Their own spreadsheet:** if the user prefers Google Sheets, Excel or similar and a
   connected tool can edit it, use that. Import `${CLAUDE_PLUGIN_ROOT}/templates/tracker.csv` as the first tab.
   Note the link in `profile.md`.
-- Also keep `job-search/outcomes.md` (see `job-search-core`) for results with their scores.
+- Also keep `job-search/outcomes.md` (see `interview-first:job-search-core`) for results with their scores.
 
 ## Columns
 
@@ -29,7 +29,7 @@ Load the `job-search-core` skill first.
 | office_days | number per week, blank if unknown |
 | salary_min, salary_max | numbers, blank if not stated |
 | day_rate | number, contracts only |
-| match_score, screener_score | from `job-fit-score` |
+| match_score, screener_score | from `interview-first:job-fit-score` |
 | priority | High / Medium / Low |
 | status | To review / Applying / Applied / Interviewing / Offer / Rejected / Withdrawn / Skipped |
 | route | Cold / Contact first / Referral / Recruiter |

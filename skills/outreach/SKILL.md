@@ -6,7 +6,7 @@ argument-hint: "[who and why, e.g. 'hiring manager at Acme for the Lead Engineer
 
 # Outreach
 
-Load the `job-search-core` skill and read the candidate profile first.
+Load the `interview-first:job-search-core` skill and read the candidate profile first.
 
 ## Why this matters
 
@@ -57,5 +57,5 @@ Write each message so it can be read in 20 seconds on a phone.
 
 You draft; the user sends. Only send a message on their behalf if a tool allows it and
 they explicitly ask for that specific message to be sent. Offer to log each message in
-the tracker with a follow-up date (the `application-tracker` skill), and to set a
+the tracker with a follow-up date (the `interview-first:application-tracker` skill), and to set a
 reminder for the follow-up if scheduling is available.
