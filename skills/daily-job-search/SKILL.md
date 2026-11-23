@@ -5,7 +5,7 @@ description: Run a search for new roles that match the candidate profile, score 
 
 # Daily job search
 
-Read the `job-search-core` skill and the candidate profile first.
+Load the `job-search-core` skill and read the candidate profile first.
 
 ## Running a search
 

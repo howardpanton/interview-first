@@ -5,7 +5,7 @@ description: Keep a job-search tracker of roles, applications, contacts, next ac
 
 # Application tracker
 
-Read the `job-search-core` skill first.
+Load the `job-search-core` skill first.
 
 ## Where the tracker lives
 

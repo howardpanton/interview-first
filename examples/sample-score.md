@@ -19,7 +19,7 @@ the hiring manager first, and tailor the CV with the true missing terms.
 | Category | Score | Why |
 |---|---|---|
 | Skills overlap | 23/35 | Strong on TypeScript, component libraries, testing and CI. React is Limited (one production app): half marks on a must-have. No GraphQL (a nice-to-have) |
-| Seniority fit | 15/20 | Senior engineer who mentors two developers, applying for a lead title: one step up, with partial evidence |
+| Seniority fit | 15/20 | Senior engineer applying for a lead title: one step up, but already leads the frontend and mentors two developers. No line management yet |
 | Domain fit | 15/15 | Scheduling and operations software, the same shape as their logistics work |
 | Practical fit | 14/20 | Hybrid, 2 days, within limits (7). Salary not stated (4, flagged). Permanent (3, right to work not stated on listing) |
 | Direction fit | 7/10 | AI-assisted delivery mentioned as a plus; team leadership |
@@ -38,7 +38,7 @@ dense operator screens like theirs.
 |---|---|---|
 | Must-have keywords | 35/50 | CV covers 7 of 10: missing "design system", "accessibility", "stakeholders" |
 | Core skill | 10/20 | React is present but thin |
-| Title match | 5/10 | "Senior Software Engineer, Frontend" is adjacent to "Lead" |
+| Title match | 5/10 | "Senior Software Engineer, Frontend" is the same family as "Lead Frontend Engineer", at a different level |
 | Nice-to-haves | 5/10 | 2 of 4 |
 | Knock-out questions | 10/10 | None apply |
 
