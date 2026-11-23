@@ -65,7 +65,7 @@ helped more:
 
 **Templates:** a [profile](templates/profile.md), a screener-friendly
 [CV](skills/cv-tailor/cv-template.md) and [cover letter](skills/cover-letter/cover-letter-template.md)
-(HTML inside each file), and a [tracker](templates/tracker.csv). See a [sample score](examples/sample-score.md).
+(HTML inside each file), and a [tracker](skills/application-tracker/tracker-template.md). See a [sample score](examples/sample-score.md).
 
 ## Install
 

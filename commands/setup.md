@@ -16,7 +16,7 @@ Use the `interview-first:job-search-core` skill.
 4. Ask the remaining questions in one short message: target titles, locations and work
    pattern, office-day and travel limits, pay target and floor, notice period, right to
    work, and what they want their next role to move them towards. Stop and wait.
-5. Write their answers in, copy `${CLAUDE_PLUGIN_ROOT}/templates/tracker.csv` to `job-search/tracker.csv`, create
+5. Write their answers in, create `job-search/tracker.csv` from `${CLAUDE_PLUGIN_ROOT}/skills/application-tracker/tracker-template.md`, create
    an empty `job-search/outcomes.md`, and make sure `job-search/` is in `.gitignore` if the
    folder is a git repository.
 6. Offer a daily job search in one short question: "Would you like me to search for new

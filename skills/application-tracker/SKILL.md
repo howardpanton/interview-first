@@ -9,10 +9,10 @@ Load the `interview-first:job-search-core` skill first.
 
 ## Where the tracker lives
 
-- **Default:** `job-search/tracker.csv`, copied from `${CLAUDE_PLUGIN_ROOT}/templates/tracker.csv`. Opens in any
+- **Default:** `job-search/tracker.csv`, created from `${CLAUDE_PLUGIN_ROOT}/skills/application-tracker/tracker-template.md`. Opens in any
   spreadsheet app.
 - **Their own spreadsheet:** if the user prefers Google Sheets, Excel or similar and a
-  connected tool can edit it, use that. Import `${CLAUDE_PLUGIN_ROOT}/templates/tracker.csv` as the first tab.
+  connected tool can edit it, use that. Use the template's header row for the first tab.
   Note the link in `profile.md`.
 - Also keep `job-search/outcomes.md` (see `interview-first:job-search-core`) for results with their scores.
 

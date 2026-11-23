@@ -123,7 +123,7 @@ folder is a git repository, check `job-search/` is in `.gitignore` before writin
 job-search/
   profile.md              # who they are, evidence, targets, constraints
   cv/master.html          # the master CV, from the cv-tailor template
-  tracker.csv             # every role, from templates/tracker.csv (or a Google Sheet)
+  tracker.csv             # every role (or a Google Sheet)
   outcomes.md             # every application with its scores, route and result
   applications/<company>/ # tailored CV, cover letter, notes for one role
   prep/<company>.md       # interview prep pack for one role
