@@ -6,5 +6,6 @@
   "homepage": "https://github.com/howardpanton/interview-first",
   "repository": "https://github.com/howardpanton/interview-first",
   "license": "MIT",
+  "icon": "images/icon.png",
   "keywords": ["job-search", "cv", "resume", "cover-letter", "interview", "career", "ats"]
 }
